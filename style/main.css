@@ -284,10 +284,10 @@ html, body {
       animation-fill-mode: both; }
   
   .score-container:after {
-    content: "Humalatila"; }
+    content: "Pisteet"; }
   
   .best-container:after {
-    content: "Kovin känni"; }
+    content: "Paras tulos"; }
   
   p {
     margin-top: 0;
