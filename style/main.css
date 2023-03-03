@@ -7,8 +7,9 @@ html, body {
   /*  font-family: 'Comic Sans', 'Comic Sans', Chalkboard, Helvetica, Arial, sans-serif; */
       background: url('/img/megabg.jpg');
     background-attachment: fixed;
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     
    }
   
@@ -954,6 +955,17 @@ html, body {
         @media screen and (max-width: 480px) {
           .tile.tile-2048 .tile-inner {
             font-size: 15px; } }
+
+      .tile.tile-4096 .tile-inner {
+  
+        background: #fff url('/img/4096.png');
+        background-size: cover;
+        box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+        font-size: 35px; }
+        @media screen and (max-width: 480px) {
+          .tile.tile-4096 .tile-inner {
+            font-size: 15px; } }
+            
       .tile.tile-super .tile-inner {
   
         background: #fff url('/img/super.png');
