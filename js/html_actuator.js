@@ -13,8 +13,7 @@ function HTMLActuator() {
   
 }
 
-dogeSayings = ['Lisää viinaa!', 'Silmät liikkuu vielä!', 'Pirkka <3', 'Perjantai!', 'Lauantai!', 'Keskiviikko!', 'Jaksaa!', 'Gambina <3', 'Känni päälle!', 'Kas, lempijuomaani!', 'Kova meno!', 'Napsut vielä!' ,'Sit saunaan!',
-    'Normipäivä!', 'Lisää!!!','Pienet sille!','Napsuu!','Tuo mullekin!','Viinaa!!','Kossua!','Jallua!','Leijonaa!','Tuo kaksi!','Muutamat vielä']
+dogeSayings = ['Lisää forttia!', 'Boxed like a fish', 'Fortnite <3', 'Lanit', 'Kofeiiniä', '1 Peli vielä', 'ykkönen']
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
   var self = this;
@@ -191,7 +190,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "LASOL! <3" : "Game over!";
+  var message = won ? "Victori royale" : "Game over!";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;

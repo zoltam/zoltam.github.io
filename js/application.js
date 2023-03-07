@@ -16,6 +16,7 @@ window.requestAnimationFrame(function () {
         "http://www.oispakaljaa.com/img/512.png",
         "http://www.oispakaljaa.com/img/1024.png",
         "http://www.oispakaljaa.com/img/2048.png",
+        "http://www.oispakaljaa.com/img/4096.png",
 	"http://www.oispakaljaa.com/img/katko.png"
 
     ];
