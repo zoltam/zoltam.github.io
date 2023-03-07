@@ -13,7 +13,7 @@ function HTMLActuator() {
   
 }
 
-dogeSayings = ['Lisää forttia!', 'Boxed like a fish', 'Fortnite <3', 'Lanit', 'Kofeiiniä', '1 Peli vielä', 'ykkönen']
+dogeSayings = ['Lisää forttiaa!', 'Boxed like a fish', 'Fortnite <3', 'Lanit', 'Kofeiiniä', '1 Peli vielä', 'ykkönen']
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
   var self = this;
